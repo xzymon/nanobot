@@ -20,6 +20,11 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'jakarta.ws.rs:jakarta.ws.rs-api:3.1.0'
+	implementation 'org.glassfish.jersey.core:jersey-client:3.1.0'
+	implementation 'org.glassfish.jersey.inject:jersey-hk2:3.1.0'
+	implementation 'jakarta.activation:jakarta.activation-api:2.1.2'
+	implementation 'org.glassfish.jersey.media:jersey-media-multipart:3.1.0'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
